@@ -1,0 +1,177 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-06-08 10:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_work_contract",
+  "session_status",
+  "column_break_main",
+  "start_time",
+  "end_time",
+  "work_location",
+  "section_break_tasks",
+  "tasks",
+  "section_break_metrics",
+  "total_minutes",
+  "tokens_used",
+  "section_break_reflection",
+  "motivation_level",
+  "todays_goals",
+  "column_break_reflection",
+  "work_satisfaction",
+  "self_evaluation",
+  "section_break_notes",
+  "notes",
+  "work_entry"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_work_contract",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User Work Contract",
+   "options": "User Work Contract",
+   "reqd": 1
+  },
+  {
+   "default": "Started",
+   "fieldname": "session_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Session Status",
+   "options": "Started\nFinished\nSubmitted",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_main",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "start_time",
+   "fieldtype": "Datetime",
+   "label": "Start Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Datetime",
+   "label": "End Time"
+  },
+  {
+   "fieldname": "work_location",
+   "fieldtype": "Select",
+   "label": "Work Location",
+   "options": "IN HOUSE\nDEPLOYED\nREMOTE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_tasks",
+   "fieldtype": "Section Break",
+   "label": "Tasks"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "Work Session Task"
+  },
+  {
+   "fieldname": "section_break_metrics",
+   "fieldtype": "Section Break",
+   "label": "Metrics"
+  },
+  {
+   "default": "0",
+   "description": "Total minutes for the session, split across tasks by percentage.",
+   "fieldname": "total_minutes",
+   "fieldtype": "Int",
+   "label": "Total Minutes"
+  },
+  {
+   "default": "0",
+   "fieldname": "tokens_used",
+   "fieldtype": "Int",
+   "label": "Tokens Used",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "section_break_reflection",
+   "fieldtype": "Section Break",
+   "label": "Reflection"
+  },
+  {
+   "fieldname": "motivation_level",
+   "fieldtype": "Select",
+   "label": "Motivation Level",
+   "options": "Self-forcing\nMid\nMotivated\nExcited"
+  },
+  {
+   "fieldname": "todays_goals",
+   "fieldtype": "Text",
+   "label": "Today's Goals"
+  },
+  {
+   "fieldname": "column_break_reflection",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_satisfaction",
+   "fieldtype": "Select",
+   "label": "Satisfaction with Today's Work",
+   "options": "Unsatisfied\nNeutral\nSatisfied"
+  },
+  {
+   "fieldname": "self_evaluation",
+   "fieldtype": "Text",
+   "label": "Self Evaluation"
+  },
+  {
+   "fieldname": "section_break_notes",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "work_entry",
+   "fieldtype": "Link",
+   "label": "Work Entry",
+   "options": "Work Entry",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-08 11:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Tevind Work Session",
+ "name": "Work Session",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -11,15 +11,14 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "tevind_work_session",
-# 		"logo": "/assets/tevind_work_session/logo.png",
-# 		"title": "Tevind Work Session",
-# 		"route": "/tevind_work_session",
-# 		"has_permission": "tevind_work_session.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "tevind_work_session",
+		"logo": "/assets/tevind_work_session/images/icon.svg",
+		"title": "Tevind Work Session",
+		"route": "/app/work-session-app",
+	}
+]
 
 # Includes in <head>
 # ------------------

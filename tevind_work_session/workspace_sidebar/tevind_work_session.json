@@ -1,0 +1,41 @@
+{
+ "app": "tevind_work_session",
+ "creation": "2026-06-08 12:30:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "stopwatch",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "play",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Open Work Session",
+   "link_to": "work-session-app",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "list",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Work Session",
+   "link_to": "Work Session",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-08 12:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "Tevind Work Session",
+ "name": "Tevind Work Session",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Tevind Work Session"
+}

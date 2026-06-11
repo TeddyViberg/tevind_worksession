@@ -1,0 +1,53 @@
+{
+ "app": "tevind_work_session",
+ "charts": [],
+ "content": "[{\"id\":\"tws_header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tevind Work Session</span>\",\"col\":12}},{\"id\":\"open_app_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Work Session\",\"col\":4}},{\"id\":\"work_session_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work Session\",\"col\":4}}]",
+ "creation": "2026-06-08 11:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "stopwatch",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Tevind Work Session",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-06-08 11:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Tevind Work Session",
+ "name": "Tevind Work Session",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "",
+   "label": "Open Work Session",
+   "link_to": "work-session-app",
+   "stats_filter": "[]",
+   "type": "Page"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Work Session",
+   "link_to": "Work Session",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Tevind Work Session",
+ "type": "Workspace"
+}
